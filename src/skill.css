@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Spicy+Rice&display=swap');
+
+.skill-page {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 75.4vh;
+  }
+  
+  .skill-title {
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: #ffc300;
+    text-transform: uppercase;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .skill-item {
+    cursor: pointer;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 30px;
+    width: 280px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .skill-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .skill-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-item h2 {
+    font-size: 20px;
+    color: #ffc300;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    
+  }
+  
+  .skill-bar {
+    background-color: #444;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-level {
+    background-color: #ffc300;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .skill-item p {
+    font-size: 12px;
+    color: #adb5bd;
+    position: absolute;
+    bottom: 26px;
+    right: 30px;
+  }
+  

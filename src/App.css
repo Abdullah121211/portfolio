@@ -1,0 +1,10 @@
+
+
+.nav3{
+    top: 0;
+    position: sticky;
+}
+html{
+    scroll-behavior: smooth;
+}
+

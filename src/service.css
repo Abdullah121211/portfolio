@@ -1,0 +1,122 @@
+
+
+
+body{
+    background-color: black;
+}
+.services{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 110px 110px 110px ;
+    position: relative;
+    gap: 50px;
+    top: 20px;
+ height: 510px;
+
+}
+
+.service_head{
+    text-align: left;
+    width: 90%;
+
+}
+
+.service_head p{
+    margin-top: 23px;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: lightgray;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-left: 84px;
+}
+
+
+.service_head h2{
+    font-size: 18px;
+    
+    margin-bottom: 4em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    margin-left: 84px;
+    color: #ffc300;
+}
+
+.servic{
+    display: flex;
+    cursor: pointer;
+}
+
+.servic:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.6s;
+
+}
+
+.p_services{
+    display: flex;
+
+    flex-direction: column;
+
+justify-content: center;
+align-items: center;
+background-color: black;
+height: 635px;
+    
+
+}
+
+.icondiv{
+ width: 120px ;
+ color: #ffc300;
+ height: 100%;
+ font-size: 45px;
+ background-color: #323232;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.services h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-family: "Silkscreen", sans-serif;
+
+    font-style: normal;
+}
+
+.services p{
+    padding-left: 15px;
+    color: lightgray;
+    font-size: 15px;
+    font-family: cursive;
+    word-spacing: 5px;
+}
+
+.div{
+    width: 80%;
+
+}
+
+.p_services ::selection {
+    background-color:#ffc300
+    ;
+    color: white; /* Optional: You can also change the text color */
+}
+
+/* For Firefox (optional as it supports ::selection too) */
+.p_services ::-moz-selection {
+    background-color: red;
+    color: white;
+}

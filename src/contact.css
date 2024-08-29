@@ -1,0 +1,173 @@
+.contact{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 30px;
+}
+
+/* Address css */
+
+
+.add{
+    padding: 3px;
+}
+
+
+.address{
+    width: 50%;
+    height: 610px;
+    display: flex;
+
+}
+
+.backadd{
+    width: 80%;
+    height: 400px;
+    background-color: #323232;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+.add{
+    height: 58px;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    margin-left: 90px;
+    border-radius: 10px;
+    margin-top: 32px;
+    background-color: white;
+    display: flex;
+
+}
+
+.add h2{
+    font-size:18px ;
+    margin-left: 5px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add i{
+    color: #ffc300;
+}
+
+.add p{
+    color: gray;
+    font-size: 16px;
+}
+
+
+/* Address css end */
+
+
+/* form css */
+
+
+.formed{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+form{
+    width: 60%;
+    height: 550px;
+    background-color: #323232;
+    border-radius: 12px;
+    
+}
+
+
+form input{
+    padding: 14px;
+    width: 70%;
+    display: grid;
+    margin-left: 55px;
+    margin-top: 45px;
+    border-radius: 11px;
+    border: none;
+    outline-color: white;
+}
+
+
+
+#msg{
+    height: 100px;
+    padding: 15px;
+    border-radius: 11px;
+    border: none;
+    width: 70%;
+    height: 105px;
+    margin-left: 55px;
+    margin-top: 55px;
+    outline-color: white;
+}
+
+form button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.562);
+    margin-left: 56px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+input[type="submit"] {
+    position: relative;
+    z-index: 100;
+    padding: 10px;
+  }
+
+  input[type="submit"] {
+    pointer-events: auto;
+  }
+
+
+  #inpsend{
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-top: 20px;
+    color: black;
+    background-color: #ffc300;
+  }
+
+  #inpsend:hover{
+    background-color: #ffc320;
+    font-size: 15px;
+    transition: 1.5s;
+  }
+
+  
+
+/* form css end */
+
+
+.contact ::selection {
+    background-color:#ffc300;
+    color: white; /* Optional: You can also change the text color */
+}
+
+/* For Firefox (optional as it supports ::selection too) */
+.contact ::-moz-selection {
+    background-color: red;
+    color: white;
+}
+
+
